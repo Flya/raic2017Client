@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A546B13A1FB10AC40012172A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1391FB10AC40012172A /* main.swift */; };
+		A546B1411FB10CB20012172A /* RemoteProcessClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1401FB10CB20012172A /* RemoteProcessClient.swift */; };
+		A546B1441FB10E0E0012172A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1431FB10E0E0012172A /* Game.swift */; };
+		A546B1461FB10E630012172A /* PlayerContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1451FB10E630012172A /* PlayerContext.swift */; };
+		A546B1481FB10EA20012172A /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1471FB10EA20012172A /* Move.swift */; };
+		A546B14A1FB10F5A0012172A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1491FB10F5A0012172A /* Player.swift */; };
+		A546B14C1FB10FAD0012172A /* MyStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B14B1FB10FAD0012172A /* MyStrategy.swift */; };
+		A546B14E1FB10FCE0012172A /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B14D1FB10FCE0012172A /* Strategy.swift */; };
+		A546B1501FB110170012172A /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B14F1FB110170012172A /* World.swift */; };
+		A546B1B41FB131890012172A /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A546B1B31FB131890012172A /* Socket.swift */; };
+		A55C0B101FB3B2BF00958C74 /* WeatherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C0B0F1FB3B2BF00958C74 /* WeatherType.swift */; };
+		A55C0B121FB3B32C00958C74 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C0B111FB3B32C00958C74 /* Facility.swift */; };
+		A55C0B141FB3BEE100958C74 /* CircularUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C0B131FB3BEE100958C74 /* CircularUnit.swift */; };
+		A55C0B161FB3BF0700958C74 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55C0B151FB3BF0700958C74 /* Unit.swift */; };
+		A59796541FB3AC4D00252E69 /* VehicleUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59796531FB3AC4D00252E69 /* VehicleUpdate.swift */; };
+		A59796561FB3AC6600252E69 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59796551FB3AC6600252E69 /* Vehicle.swift */; };
+		A59796581FB3ACB000252E69 /* TerrianType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59796571FB3ACB000252E69 /* TerrianType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A546B1341FB10AC40012172A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A546B1361FB10AC40012172A /* raic2017 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = raic2017; sourceTree = BUILT_PRODUCTS_DIR; };
+		A546B1391FB10AC40012172A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A546B1401FB10CB20012172A /* RemoteProcessClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteProcessClient.swift; sourceTree = "<group>"; };
+		A546B1431FB10E0E0012172A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A546B1451FB10E630012172A /* PlayerContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerContext.swift; sourceTree = "<group>"; };
+		A546B1471FB10EA20012172A /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		A546B1491FB10F5A0012172A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A546B14B1FB10FAD0012172A /* MyStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStrategy.swift; sourceTree = "<group>"; };
+		A546B14D1FB10FCE0012172A /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		A546B14F1FB110170012172A /* World.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		A546B1B31FB131890012172A /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		A55C0B0F1FB3B2BF00958C74 /* WeatherType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherType.swift; sourceTree = "<group>"; };
+		A55C0B111FB3B32C00958C74 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		A55C0B131FB3BEE100958C74 /* CircularUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularUnit.swift; sourceTree = "<group>"; };
+		A55C0B151FB3BF0700958C74 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		A59796531FB3AC4D00252E69 /* VehicleUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleUpdate.swift; sourceTree = "<group>"; };
+		A59796551FB3AC6600252E69 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		A59796571FB3ACB000252E69 /* TerrianType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrianType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A546B1331FB10AC40012172A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A546B12D1FB10AC40012172A = {
+			isa = PBXGroup;
+			children = (
+				A546B1381FB10AC40012172A /* raic2017 */,
+				A546B1371FB10AC40012172A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A546B1371FB10AC40012172A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A546B1361FB10AC40012172A /* raic2017 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A546B1381FB10AC40012172A /* raic2017 */ = {
+			isa = PBXGroup;
+			children = (
+				A546B1421FB10DF80012172A /* model */,
+				A546B1391FB10AC40012172A /* main.swift */,
+				A546B1401FB10CB20012172A /* RemoteProcessClient.swift */,
+				A546B14B1FB10FAD0012172A /* MyStrategy.swift */,
+				A546B14D1FB10FCE0012172A /* Strategy.swift */,
+				A546B1B31FB131890012172A /* Socket.swift */,
+			);
+			path = raic2017;
+			sourceTree = "<group>";
+		};
+		A546B1421FB10DF80012172A /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A546B1431FB10E0E0012172A /* Game.swift */,
+				A546B1451FB10E630012172A /* PlayerContext.swift */,
+				A546B1471FB10EA20012172A /* Move.swift */,
+				A546B1491FB10F5A0012172A /* Player.swift */,
+				A546B14F1FB110170012172A /* World.swift */,
+				A59796531FB3AC4D00252E69 /* VehicleUpdate.swift */,
+				A59796551FB3AC6600252E69 /* Vehicle.swift */,
+				A59796571FB3ACB000252E69 /* TerrianType.swift */,
+				A55C0B0F1FB3B2BF00958C74 /* WeatherType.swift */,
+				A55C0B111FB3B32C00958C74 /* Facility.swift */,
+				A55C0B131FB3BEE100958C74 /* CircularUnit.swift */,
+				A55C0B151FB3BF0700958C74 /* Unit.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A546B1351FB10AC40012172A /* raic2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A546B13D1FB10AC40012172A /* Build configuration list for PBXNativeTarget "raic2017" */;
+			buildPhases = (
+				A546B1321FB10AC40012172A /* Sources */,
+				A546B1331FB10AC40012172A /* Frameworks */,
+				A546B1341FB10AC40012172A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = raic2017;
+			productName = raic2017;
+			productReference = A546B1361FB10AC40012172A /* raic2017 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A546B12E1FB10AC40012172A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					A546B1351FB10AC40012172A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A546B1311FB10AC40012172A /* Build configuration list for PBXProject "raic2017" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A546B12D1FB10AC40012172A;
+			productRefGroup = A546B1371FB10AC40012172A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A546B1351FB10AC40012172A /* raic2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A546B1321FB10AC40012172A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59796561FB3AC6600252E69 /* Vehicle.swift in Sources */,
+				A546B1501FB110170012172A /* World.swift in Sources */,
+				A55C0B141FB3BEE100958C74 /* CircularUnit.swift in Sources */,
+				A55C0B101FB3B2BF00958C74 /* WeatherType.swift in Sources */,
+				A546B1481FB10EA20012172A /* Move.swift in Sources */,
+				A546B1B41FB131890012172A /* Socket.swift in Sources */,
+				A546B1461FB10E630012172A /* PlayerContext.swift in Sources */,
+				A546B14C1FB10FAD0012172A /* MyStrategy.swift in Sources */,
+				A546B1411FB10CB20012172A /* RemoteProcessClient.swift in Sources */,
+				A546B14E1FB10FCE0012172A /* Strategy.swift in Sources */,
+				A59796541FB3AC4D00252E69 /* VehicleUpdate.swift in Sources */,
+				A59796581FB3ACB000252E69 /* TerrianType.swift in Sources */,
+				A546B1441FB10E0E0012172A /* Game.swift in Sources */,
+				A55C0B161FB3BF0700958C74 /* Unit.swift in Sources */,
+				A55C0B121FB3B32C00958C74 /* Facility.swift in Sources */,
+				A546B14A1FB10F5A0012172A /* Player.swift in Sources */,
+				A546B13A1FB10AC40012172A /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A546B13B1FB10AC40012172A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A546B13C1FB10AC40012172A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		A546B13E1FB10AC40012172A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A546B13F1FB10AC40012172A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A546B1311FB10AC40012172A /* Build configuration list for PBXProject "raic2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A546B13B1FB10AC40012172A /* Debug */,
+				A546B13C1FB10AC40012172A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A546B13D1FB10AC40012172A /* Build configuration list for PBXNativeTarget "raic2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A546B13E1FB10AC40012172A /* Debug */,
+				A546B13F1FB10AC40012172A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A546B12E1FB10AC40012172A /* Project object */;
+}
