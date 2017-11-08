@@ -548,94 +548,6 @@ class RemoteProcessClient{
     return VehicleUpdate(id: id, x: x, y: y, durability: durability, remainingAttackCooldownTicks: remainingAttackCooldownTicks, selected: selected, groups: groups)
   }
   
-  
-  fileprivate func read()->[Vehicle]
-  {
-    let count:Int32 = read();
-    if (count < 0) {
-      exit(20012);
-    }
-    
-    var values = [Vehicle]()
-    values.reserveCapacity(Int(count))
-    
-    for _ in 0..<count {
-      values.append(read())
-    }
-    return values;
-  }
-  
-  fileprivate func read()->[Int32]
-  {
-    let count:Int32 = read();
-    if (count < 0) {
-      exit(20012);
-    }
-    
-    var values = [Int32]()
-    values.reserveCapacity(Int(count))
-    
-    for _ in 0..<count {
-      values.append(read())
-    }
-    return values;
-  }
-  
-  fileprivate func read()->[VehicleUpdate]
-  {
-    let count:Int32 = read();
-    if (count < 0) {
-      exit(20012);
-    }
-    
-    var values = [VehicleUpdate]()
-    values.reserveCapacity(Int(count))
-    
-    for _ in 0..<count {
-      values.append(read())
-    }
-    return values;
-  }
-  
-  fileprivate func read() ->[Player]
-  {
-    let playerCount:Int32 = read();
-    if (playerCount < 0) {
-      return previousPlayers;
-    }
-    
-    var players = [Player]()
-    players.reserveCapacity(Int(playerCount))
-    
-    for _ in 0..<playerCount {
-      players.append(read())
-    }
-    
-    previousPlayers = players;
-    return players;
-  }
-  
-  fileprivate func read() ->[Facility]
-  {
-    let facilityCount:Int32 = read();
-    if (facilityCount < 0) {
-      return previousFacility
-    }
-    
-    var facility = [Facility]()
-    facility.reserveCapacity(Int(facilityCount))
-    
-    for _ in 0..<facilityCount {
-      let value:Facility = read()
-      facility.append(value)
-    }
-    
-    previousFacility = facility;
-    return facility;
-  }
-  
-  
-  
   fileprivate func read<T:RawRepresentable>() -> [[T]] where T.RawValue == Int8
   {
     let length:Int32 = read();
@@ -722,6 +634,91 @@ class RemoteProcessClient{
     
     let facility = Facility(id: id, type: type, ownerPlayerId: ownerPlayerId, left: left, top: top, capturePoints: capturePoints, vehicleType: vehicleType, productionProgress: productionProgress)
     previousFacilityById[facility.id] = facility;
+    return facility;
+  }
+  
+  fileprivate func read()->[Vehicle]
+  {
+    let count:Int32 = read();
+    if (count < 0) {
+      exit(20012);
+    }
+    
+    var values = [Vehicle]()
+    values.reserveCapacity(Int(count))
+    
+    for _ in 0..<count {
+      values.append(read())
+    }
+    return values;
+  }
+  
+  fileprivate func read()->[Int32]
+  {
+    let count:Int32 = read();
+    if (count < 0) {
+      exit(20012);
+    }
+    
+    var values = [Int32]()
+    values.reserveCapacity(Int(count))
+    
+    for _ in 0..<count {
+      values.append(read())
+    }
+    return values;
+  }
+  
+  fileprivate func read()->[VehicleUpdate]
+  {
+    let count:Int32 = read();
+    if (count < 0) {
+      exit(20012);
+    }
+    
+    var values = [VehicleUpdate]()
+    values.reserveCapacity(Int(count))
+    
+    for _ in 0..<count {
+      values.append(read())
+    }
+    return values;
+  }
+  
+  fileprivate func read() ->[Player]
+  {
+    let playerCount:Int32 = read();
+    if (playerCount < 0) {
+      return previousPlayers;
+    }
+    
+    var players = [Player]()
+    players.reserveCapacity(Int(playerCount))
+    
+    for _ in 0..<playerCount {
+      players.append(read())
+    }
+    
+    previousPlayers = players;
+    return players;
+  }
+  
+  fileprivate func read() ->[Facility]
+  {
+    let facilityCount:Int32 = read();
+    if (facilityCount < 0) {
+      return previousFacility
+    }
+    
+    var facility = [Facility]()
+    facility.reserveCapacity(Int(facilityCount))
+    
+    for _ in 0..<facilityCount {
+      let value:Facility = read()
+      facility.append(value)
+    }
+    
+    previousFacility = facility;
     return facility;
   }
 }
